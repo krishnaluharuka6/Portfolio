@@ -221,13 +221,17 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    margin: 60px;
+}
+
+.about-img{
+    margin-right: 40px;
+    padding-left: 50px;
 }
 
 .about-img img{
-    max-width: 630px;
-    height: 100vh;
-    width: 100%;
+    width: 450px;
+    height: 500px;
     border-radius: 8px;
 }
 
@@ -618,6 +622,9 @@ section{
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 
 .row{
@@ -632,6 +639,7 @@ section{
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    margin: 5px;
 }
 
 .layer{
