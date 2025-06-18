@@ -201,9 +201,9 @@ body {
 .img .img-real::before{
     content: '';
     position: absolute;
-    top: 0;
+    /* top: 0;
     left: 0;
-    width: 0;
+    width: 0; */
     height: 100%;
     background-image: url('krishna2.jpg');
     background-size: cover;
@@ -337,15 +337,24 @@ body {
 }
 
 section{
-    display: flex;
     flex-wrap: wrap;
+}
+
+#myskills{
+    height: 100vh;
+}
+
+.section1{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 
 .container1{
     width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+    height: auto;
+    padding: 0 90px;
+    margin-left: 0;
 }
 
 .heading1{
@@ -361,7 +370,7 @@ section{
 }
 
 .technical-bars .bar{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .technical-bars .bar:first-child{
@@ -599,6 +608,7 @@ section{
     font-size: 60px;
     line-height: 1;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .main-text h2 span{
